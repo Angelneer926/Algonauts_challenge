@@ -98,7 +98,7 @@ def evaluate_prediction_correlation_concat(prediction_dir, fmri_dir, subjects, t
         overall = np.mean(subject_corrs)
         print(f"\nOverall mean correlation across subjects = {overall:.4f}")
 
-        os.makedirs("val_parcel_corrs_subjectconcat", exist_ok=True)
+        os.makedirs("val_parcel_corrs_friends_s6b", exist_ok=True)
         for sid, corrs in subject_parcel_corrs.items():
             np.save(f"val_parcel_corrs_subjectconcat/sub-{sid}_parcel_corr.npy", corrs)
         print(f"\nSaved per-subject per-parcel correlations to val_parcel_corrs_subjectconcat/")

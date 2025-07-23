@@ -71,6 +71,6 @@ if __name__ == "__main__":
     submission_dict = build_submission_dict(pred_root, base_fmri_root)
 
     save_path = "friends_submission_dict_1.npy"
-    # save_path = "friends_submission_dict_1.npy" # ood test dataset
+    # save_path = "ood_submission_dict_1.npy" # ood test dataset
     np.save(save_path, submission_dict)
     print(f"Submission dict saved to: {save_path}")
