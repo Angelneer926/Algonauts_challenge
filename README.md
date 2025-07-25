@@ -3,7 +3,7 @@
 This repository contains the official implementation of our submission to the **Algonauts Project 2025 Challenge**, where the goal is to predict whole-brain fMRI responses to naturalistic multimodal movie stimuli.
 
 ## Report
-The full technical report is available at:
+The full technical report is available at: [report](https://arxiv.org/abs/2507.18104).
 
 ## Overview
 
